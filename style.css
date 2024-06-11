@@ -3,8 +3,8 @@
 /*  Variable */
 :root {
   --text-color:white;
-  --main-color: #1f4d80;
-  --eerie-black: #262626;
+  --main-color: #e74bb8;
+  --eerie-black: 001F3F;
   --laurel-green: #acbfa4;
   --beige: #e2e8ce;
   --amber-sae-ece: #ff7f11;
@@ -30,8 +30,7 @@
 
 body {
   min-height: 100vh;
-  background-image: linear-gradient(to bottom right, rgb(0, 18, 69), rgb(0, 127, 139));
-  /* background-color: black; */
+  background-image: linear-gradient(91.1deg, rgb(57, 31, 105) -2.3%, rgb(115, 43, 155) 44.4%, #e74bb8 103.4%);;
   background-attachment: fixed;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
@@ -85,12 +84,14 @@ ul {
 }
 
 section {
-  background-color: var(--white-alpha-25);
-  border: 1px solid var(--white-alpha-40);
   min-height: calc(100vh - 70px);
   border-radius: 30px;
   backdrop-filter: var(--backdrop-filter-blur);
-  display: none;
+  display: none; 
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 section.active {
@@ -459,30 +460,22 @@ button {
   color: var(--main-color);
 }
 /* ------typing effect --------- */
+
+.typing-para {
+  margin: 0px 0px 30px 0px;
+  font-size: 24px;
+}
+
+
 .typed-text {
-    color: #fff; /* Text color */
-    font-family: Arial, sans-serif; /* Font family */
-    font-size: 24px; /* Font size */
-    font-weight: bold; /* Font weight */
-    margin-bottom: 40px; /* Bottom margin */
+    color: white; /* Text color */
+    font-family: 'Poppins', sans-serif; /* Font family */
+    font-size: 30px; /* Font size */
+    /* font-weight: bold; Font weight */
+    margin: 40px 50px 0 0; /* Bottom margin */
   }
   
-  .cursor {
-    color: #fff; /* Cursor color */
-    font-size: 24px; /* Cursor size */
-    font-weight: bold; /* Cursor weight */
-    margin-left: 5px; /* Margin from text */
-    animation: blink 0.7s infinite; /* Cursor animation */
-  }
-  
-  @keyframes blink {
-    0%, 100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-  }
+
   
 /* Home Section */
 .home-section {
@@ -500,7 +493,7 @@ button {
 }
 
 .home-text p {
-  font-size: 18px;
+  font-size: 28px;
 }
 
 .home-text h1 {
@@ -509,9 +502,8 @@ button {
 }
 
 .home-text h2 {
-  font-size: 20px;
-  text-transform: capitalize;
-  font-weight: 300;
+  font-size: 30px;
+  font-weight: 400;
   margin: 0 0 30px;
 }
 
@@ -944,12 +936,6 @@ button {
 }
 
 
-
-body {
-    position: relative;
-    overflow: hidden;
-    /* Other existing styles */
-}
 
 .animated-circles {
     position: fixed;
