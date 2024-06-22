@@ -514,14 +514,16 @@ button {
 .home-img .img-box {
   max-width: 360px;
   background-color: var(--white-alpha-25);
-  border-radius: 50%;
+  border-radius: 20%;
   border: 8px solid var(--white-alpha-25);
   margin: auto;
+  overflow: hidden;
+
 }
 
 .home-img .img-box img {
   width: 100%;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 
 /* About Section */
@@ -820,8 +822,8 @@ button {
     width: 100%;
 }
 .contact-form .input-contro ::placeholder{
-    color: var(--blue-dark);
-    opacity: 0.8;
+    color: white;
+    
     font-weight: 300;
 }
 .contact-form .input-control {
@@ -876,6 +878,10 @@ button {
 
 .contact-info-item .social-media-links i:hover {
   background-color: var(--main-color);
+  color: white;
+}
+
+.contact-form textarea::placeholder, input::placeholder{
   color: white;
 }
 
@@ -1037,4 +1043,19 @@ button {
     transition: transform 1s ease, background-color 1s ease;
     animation: move 5s infinite alternate, blob 6s infinite;
 }
-@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+
+/* p */
+.about-text p {
+  text-indent: 2em; /* Adjust the value as needed */
+  margin-bottom: 1em; /* Adds space between paragraphs */
+}
+
+.home-img img {
+  border-radius: 30px;
+}
+
+.img-box{
+  border-radius: 30px;
+}
+
