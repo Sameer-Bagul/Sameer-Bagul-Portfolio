@@ -757,6 +757,11 @@ button {
   transform: scale(0.9);
 }
 
+.pp-content ul {
+  margin-top: 20px;
+  color: black;
+}
+
 .portfolio-popup.open .pp-content {
   opacity: 1;
   transform: scale(1);
@@ -805,7 +810,7 @@ button {
 
 .pp-body .general-info li a {
   text-transform: lowercase;
-  color: var(--main-color);
+  color: black;
 }
 
 /* Contact Section */
