@@ -138,3 +138,19 @@ body {
 .text-field::placeholder {
   @apply text-zinc-400;
 }
+
+/* styles.css or index.css */
+.figure {
+  height: 600px; /* Adjust the height as needed */
+  width: 100%; /* Full width */
+  position: relative; /* Positioning for the Avatar */
+}
+
+.avatar {
+  position: absolute; /* Absolute positioning for Avatar */
+  bottom: 0; /* Align from the bottom */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Center alignment */
+  height: 100%; /* Full height */
+  width: auto; /* Keep the aspect ratio */
+}
