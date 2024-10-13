@@ -38,11 +38,9 @@ const Hero = () => {
 
         {/* Right Section - 3D Avatar instead of Image */}
         <div className="hidden lg:block">
-          <figure className="w-full max-w-[480px] ml-auto h-[600px] bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden flex items-center justify-center">
-            {/* Container to ensure 3D model is displayed correctly */}
-            <div className="h-full w-full relative">
-              <Avatar />
-            </div>
+          <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[30px] overflow-hidden" style={{ height: '600px' }}>
+            {/* Replace the static image with the 3D Avatar */}
+            <Avatar />
           </figure>
         </div>
       </div>
