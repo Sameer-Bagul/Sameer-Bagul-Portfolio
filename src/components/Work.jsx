@@ -57,8 +57,8 @@ const Work = () => {
             <h2 className="headline-2 mb-8 reveal-up ">
               My Portfolio Highlights
             </h2>
-            <Link to="/allwork">
-              <ButtonPrimary label={"All Work"} icon={"arrow_outward"} href={"/allwork"} />
+            <Link to="/allwork" target="_blank">
+              <ButtonPrimary label={"All Work"} icon={"arrow_outward"} />
             </Link>
 
           </div>
@@ -77,7 +77,7 @@ const Work = () => {
           </div>
 
           <div className="flex justify-center mt-8">
-            <Link to="/allwork">
+            <Link to="/allwork" target="_blank">
               <ButtonPrimary label={"All Work"} icon={"arrow_outward"} />
             </Link>
           </div>
