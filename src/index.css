@@ -155,3 +155,6 @@ body {
   width: auto; /* Keep the aspect ratio */
 }
 
+.ALL-work-btn {
+  display: inline;
+}

@@ -1,4 +1,5 @@
 import ProjectCard from "./ProjectCard";
+import { ButtonPrimary } from "./Button";
 
 const works = [
   {
@@ -47,9 +48,16 @@ const Work = () => {
         className="section"
       >
         <div className="container">
-          <h2 className="headline-2 mb-8 reveal-up">
-            My Portfolio Highlights
-          </h2>
+
+          <div className="flex flex-row justify-between ">
+
+            <h2 className="headline-2 mb-8 reveal-up ">
+              My Portfolio Highlights
+            </h2>
+
+            <ButtonPrimary label={"More Work"} icon={"arrow_outward"} href={"null"} />
+
+          </div>
 
           <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
             {works.map(({ imgSrc, title, tags, projectLink }, key) => (
