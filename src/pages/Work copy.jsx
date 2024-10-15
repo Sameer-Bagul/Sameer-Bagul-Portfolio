@@ -1,5 +1,5 @@
-import ProjectCard from "./ProjectCard";
-import { ButtonPrimary } from "./Button";
+import ProjectCard from "../components/ProjectCard";
+import { ButtonPrimary } from "../components/Button";
 import { Link } from "react-router-dom";
 
 
