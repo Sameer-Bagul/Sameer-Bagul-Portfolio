@@ -21,8 +21,9 @@ const About = () => {
 
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            Welcome! I&apos;m Henry, a professional web developer with a knack for crafting visually stunning and highly functional websites. Combining creativity and technical expertise. I transform your vision into digital masterpiece that excels in both appearance and performance.
-          </p>
+            Welcome! I&apos;m Sameer, an engineering student at PES Modern College of Engineering in Pune. I’m passionate about coding and full-stack web development, with skills in HTML, CSS, JavaScript, Node.js, and React. I also have a strong interest in UI/UX design, ensuring my projects are both functional and visually appealing.
+
+With experience in 3D modeling using Blender and data science tools like NumPy and Pandas, I enjoy turning ideas into reality. Let&apos;s collaborate to create something amazing!</p>
 
           <div className="flex flex-wrap items-center gap-4 md:gap-7">
             {

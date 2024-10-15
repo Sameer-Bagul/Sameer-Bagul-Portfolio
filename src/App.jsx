@@ -38,7 +38,9 @@ const App = () => {
     });
   })
   return (
+    
     <ReactLenis root>
+      
       <Header />
       <main>
         <Hero />

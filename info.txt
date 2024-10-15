@@ -1,125 +1,48 @@
-I am an Engineering student and I doing web development and many other things / skills, so I want to make a portfolio. I am going to make it in the HTML CSS JS, and the whole layout will be in the form of Grid and it will have Grid-areas to display various sections like a bento UI.
-
-so tell me the required Grid-Areas
-ChatGPT
-Creating a portfolio with a grid-based layout using CSS Grid is a great idea for an organized and visually appealing presentation. Here’s a basic outline of the grid areas you might need for a typical portfolio website, along with a brief description of what each area will contain:
-
-Header (header): This section will typically contain your name, a tagline, and navigation links.
-Hero Section (hero): This is an introductory section that might include a brief overview of who you are, a background image, or a call-to-action button.
-About Me (about): A section where you provide more detailed information about yourself, your background, and your skills.
-Projects (projects): A showcase of your work, with each project having a title, description, and links to the live project and/or source code.
-Skills (skills): A section where you list the technologies and tools you are proficient in.
-Experience (experience): Details about your work experience, internships, or significant projects.
-Education (education): Information about your academic background.
-Contact (contact): A form or details on how visitors can get in touch with you.
-Footer (footer): Links to your social media profiles, copyright information, and other legal links.
-Here’s how you might structure the grid areas in your CSS:
-
-HTML Structure
-html
-Copy code
-<div class="container">
-  <header class="header">Header</header>
-  <div class="hero">Hero Section</div>
-  <div class="about">About Me</div>
-  <div class="projects">Projects</div>
-  <div class="skills">Skills</div>
-  <div class="experience">Experience</div>
-  <div class="education">Education</div>
-  <div class="contact">Contact</div>
-  <footer class="footer">Footer</footer>
-</div>
-CSS Grid Layout
-css
-Copy code
-.container {
-  display: grid;
-  grid-template-areas:
-    "header"
-    "hero"
-    "about"
-    "projects"
-    "skills"
-    "experience"
-    "education"
-    "contact"
-    "footer";
-  grid-gap: 20px;
-  padding: 20px;
-}
-
-.header {
-  grid-area: header;
-}
-
-.hero {
-  grid-area: hero;
-}
-
-.about {
-  grid-area: about;
-}
-
-.projects {
-  grid-area: projects;
-}
-
-.skills {
-  grid-area: skills;
-}
-
-.experience {
-  grid-area: experience;
-}
-
-.education {
-  grid-area: education;
-}
-
-.contact {
-  grid-area: contact;
-}
-
-.footer {
-  grid-area: footer;
-}
-Responsive Design
-For a more responsive design, you might want to adjust the grid layout for different screen sizes using media queries. Here's an example of how you can adjust the layout for larger screens:
-
-css
-Copy code
-@media (min-width: 768px) {
-  .container {
-    grid-template-areas:
-      "header header"
-      "hero hero"
-      "about projects"
-      "skills experience"
-      "education contact"
-      "footer footer";
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (min-width: 1024px) {
-  .container {
-    grid-template-areas:
-      "header header header"
-      "hero hero hero"
-      "about about projects"
-      "skills experience contact"
-      "education education footer";
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-This layout will ensure your portfolio is well-organized and visually appealing across different devices. Adjust the grid-template-areas and grid-template-columns to suit your content and design preferences.
+Hello! I'm Sameer Bagul, an Engineering student at PES Modern College of Engineering, Pune, currently pursuing a B.E. degree. I am passionate about coding and always eager to learn new technologies. My enthusiasm for development drives me to constantly improve and innovate.
 
 
+---
 
+### My Skill Stack
 
+I am a Full Stack Web Developer with expertise in the following technologies:
+- **Frontend:** HTML, CSS, JavaScript, EJS, jQuery, Bootstrap, Tailwind CSS, Next.js, React.js, Three.js
+- **Backend:** Node.js, Express.js, WebSockets
+- **Databases:** SQL, PL/SQL, MongoDB
+- **Web3:** Knowledge about Internet Computer
 
+I am proficient in Data Structures and Algorithms (DSA) and have experience coding in C++, Java, and C. I have a keen interest in both UI/UX design and backend development.
 
+I have worked on projects involving 3D modeling software such as Blender and Spline. Additionally, I handle deployment and version control systems using Git and GitHub.
 
+I am also familiar with data science technologies like NumPy, Pandas, and Matplotlib, and have a basic understanding of Machine Learning concepts.
 
+Apart from technical skills, I enjoy writing poetry and engaging in various other activities. I have completed over 20 projects and have experience working on 3 freelancing projects.
 
-ChatGPT can make mistakes. Check im
+---
+
+### Project List
+
+1. **Realtime Collaboration Document Editor:** A tool for real-time collaborative editing of documents.
+2. **Pratham Agro:** An e-commerce website for agricultural products (Freelancing project).
+3. Isha GirlsPG website with management : freelancing 
+3. bhagavt Gita for all : personal 
+4. Motivational content make for social media : personal : still in Developement 
+5. Producent a bento UI minimilistic place to have all your apps and widgets on web 
+6. landing page for the "campus Craze" website 
+7. AI mock up interview taker 
+8. TODO List app
+9. Perfume bottle : blender model 
+10. a family traveling app 
+11. Elctron js desktop notes taking app 
+12. Web3 Defi app 
+13: UI UX designs for app : figma 
+14: UI UX designs for Web: figma 
+15: Rubics Cube : blender
+16: Mine Craft Web Clone : three.js 
+17: Quotes React APP 
+00. Get me A chai [under development]
+00. 3D AI bot / assistant 
+---
+
+### "Bringing Ideas to Life with Code"
