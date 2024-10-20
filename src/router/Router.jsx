@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Work from '../components/Work';
-import AllWork from '../pages/AllWork';
+import AllWork from '../pages/Allwork';
 import About from '../components/About';
 
 const AppRouter = () => {
