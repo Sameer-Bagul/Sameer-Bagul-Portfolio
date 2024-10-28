@@ -26,23 +26,27 @@ const sitemap = [
 const socials = [
   {
     label: 'GitHub',
-    href: 'https://www.github.com/codewithsadee-org'
+    href: 'https://www.github.com/Sameer-Bagul'
   },
   {
     label: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/codewithsadee'
+    href: 'https://www.linkedin.com/in/Sameer-Bagul'
   },
   {
     label: 'Twitter X',
-    href: 'https://x.com/codewithsadee_'
+    href: 'https://x.com/Sameer-Bagul'
   },
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/codewithsadee'
+    href: 'https://www.instagram.com/Sameer-Bagul'
   },
   {
     label: 'CodePen',
-    href: 'https://codepen.io/codewithsadee'
+    href: 'https://codepen.io/Sameer-Bagul'
+  },
+  {
+    label: 'YouTube',
+    href: ''
   }
 ];
 

@@ -6,8 +6,6 @@ import { useGSAP } from '@gsap/react';
 // Register for GSAP 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
-
-
 import ReviewCard from "./ReviewCard";
 
 const reviews = [

@@ -6,39 +6,39 @@ import { Link } from "react-router-dom";
 const works = [
   {
     imgSrc: '/images/project-1.jpg',
-    title: 'Full stack music app',
-    tags: ['API', 'MVC', 'Development'],
-    projectLink: 'https://musify-5al0.onrender.com/'
+    title: 'Isha Girls PG',
+    tags: ['Freelancing', 'React.js', 'Node.js'],
+    projectLink: ''
   },
   {
     imgSrc: '/images/project-2.jpg',
-    title: 'Free stock photo app',
-    tags: ['API', 'SPA'],
-    projectLink: 'https://pixstock-official.vercel.app/'
+    title: 'Gita for all',
+    tags: ['React.js', 'Spiritual', 'Personal Project'],
+    projectLink: ''
   },
   {
     imgSrc: '/images/project-3.jpg',
-    title: 'Recipe app',
-    tags: ['Development', 'API'],
+    title: 'My Portfolio',
+    tags: ['React.js', 'React three Fiber', 'GSAP'],
     projectLink: ''
   },
   {
     imgSrc: '/images/project-4.jpg',
-    title: 'Real state website',
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee-org/wealthome'
+    title: 'Web Minecraft ',
+    tags: ['three.js', 'Node.js', 'Web 3D Integration'],
+    projectLink: ''
   },
   {
     imgSrc: '/images/project-5.jpg',
-    title: 'eCommerce website',
-    tags: ['eCommerce', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
+    title: 'Pratham Agro (ECommerce website)',
+    tags: ['Freelancing', 'React.js', 'Node.js'],
+    projectLink: ''
   },
   {
     imgSrc: '/images/project-6.jpg',
-    title: 'vCard Personal portfolio',
-    tags: ['Web-design', 'Development'],
-    projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'
+    title: 'APP UI|UX 1st Prize ',
+    tags: ['APP-design', 'Figma','UI|UX'],
+    projectLink: ''
   },
 ];
 
