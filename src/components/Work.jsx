@@ -5,13 +5,13 @@ import { Link } from "react-router-dom";
 
 const works = [
   {
-    imgSrc: '/images/project-1.jpg',
+    imgSrc: '/images/isha-girls-pg.png',
     title: 'Isha Girls PG',
     tags: ['Freelancing', 'React.js', 'Node.js'],
     projectLink: ''
   },
   {
-    imgSrc: '/images/project-2.jpg',
+    imgSrc: '/images/Geeta-for-all.png',
     title: 'Gita for all',
     tags: ['React.js', 'Spiritual', 'Personal Project'],
     projectLink: ''
@@ -23,7 +23,7 @@ const works = [
     projectLink: ''
   },
   {
-    imgSrc: '/images/project-4.jpg',
+    imgSrc: '/images/web-mine-craft.png',
     title: 'Web Minecraft ',
     tags: ['three.js', 'Node.js', 'Web 3D Integration'],
     projectLink: ''
