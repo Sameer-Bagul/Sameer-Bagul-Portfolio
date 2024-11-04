@@ -8,19 +8,19 @@ const works = [
     imgSrc: '/images/isha-girls-pg.png',
     title: 'Isha Girls PG',
     tags: ['Freelancing', 'React.js', 'Node.js'],
-    projectLink: ''
+    projectLink: 'https://isha-girls-pg.vercel.app/'
   },
   {
     imgSrc: '/images/Geeta-for-all.png',
     title: 'Gita for all',
     tags: ['React.js', 'Spiritual', 'Personal Project'],
-    projectLink: ''
+    projectLink: 'https://bhagwat-geeta-for-all.vercel.app/'
   },
   {
-    imgSrc: '/images/project-3.jpg',
+    imgSrc: '/images/portfolio.png',
     title: 'My Portfolio',
     tags: ['React.js', 'React three Fiber', 'GSAP'],
-    projectLink: ''
+    projectLink: 'https://sameer-bagul-portfolio.vercel.app/'
   },
   {
     imgSrc: '/images/web-mine-craft.png',
@@ -29,16 +29,16 @@ const works = [
     projectLink: ''
   },
   {
-    imgSrc: '/images/project-5.jpg',
+    imgSrc: '/images/prathamagro.png',
     title: 'Pratham Agro (ECommerce website)',
     tags: ['Freelancing', 'React.js', 'Node.js'],
-    projectLink: ''
+    projectLink: 'https://pratham-agro.vercel.app/'
   },
   {
-    imgSrc: '/images/project-6.jpg',
+    imgSrc: '/images/UIUXAwardWinning.png',
     title: 'APP UI|UX 1st Prize ',
     tags: ['APP-design', 'Figma','UI|UX'],
-    projectLink: ''
+    projectLink: 'https://www.figma.com/@sameer28'
   },
 ];
 
