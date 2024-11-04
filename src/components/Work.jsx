@@ -26,7 +26,7 @@ const works = [
     imgSrc: '/images/web-mine-craft.png',
     title: 'Web Minecraft ',
     tags: ['three.js', 'Node.js', 'Web 3D Integration'],
-    projectLink: ''
+    projectLink: 'https://github.com/Sameer-Bagul/web-mine-craft'
   },
   {
     imgSrc: '/images/prathamagro.png',

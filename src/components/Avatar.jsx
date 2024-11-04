@@ -15,7 +15,7 @@ export default function Avatar() {
     let frameId;
     const rotateModel = () => {
       if (meshRef.current) {
-        meshRef.current.rotation.y += 0.0;
+        meshRef.current.rotation.y += 0.01;
       }
       frameId = requestAnimationFrame(rotateModel);
     };
