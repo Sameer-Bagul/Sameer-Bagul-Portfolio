@@ -1,5 +1,3 @@
-
-
 const aboutItems = [
   {
     label: 'Project done',
