@@ -1,6 +1,6 @@
-import { ButtonPrimary, ButtonOutline } from "./Button";
-import Avatar from "./Avatar"; // Import the Avatar component for 3D model
-import useTypingEffect from './useTypingEffect'; // Import the custom typing effect hook
+import { ButtonPrimary, ButtonOutline } from "./elements/Button";
+import Avatar from "./elements/Avatar"; // Import the Avatar component for 3D model
+import useTypingEffect from './elements/useTypingEffect'; // Import the custom typing effect hook
 
 const Hero = () => {
   const words = [' Sameer', ' a Developer', ' a Designer', ' a Freelancer'];

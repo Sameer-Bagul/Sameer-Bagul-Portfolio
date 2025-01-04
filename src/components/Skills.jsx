@@ -1,5 +1,5 @@
 import "./skill.css"
-import SkillCard from "./SkillCard";
+import SkillCard from "./elements/SkillCard";
 
 const skillCategories = [
   {

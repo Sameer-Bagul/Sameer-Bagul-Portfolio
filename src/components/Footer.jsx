@@ -1,4 +1,4 @@
-import { ButtonPrimary } from "./Button";
+import { ButtonPrimary } from "./elements/Button";
 
 const sitemap = [
   {

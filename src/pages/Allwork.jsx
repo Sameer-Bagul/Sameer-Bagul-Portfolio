@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import ProjectCard from '../components/ProjectCard';
-import { ButtonPrimary } from '../components/Button';
+import { ButtonPrimary } from '../components/elements/Button';
 
 const works = [
   {
