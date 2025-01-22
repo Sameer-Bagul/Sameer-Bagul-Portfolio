@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { ReactLenis } from 'lenis/react';
 import HomePage from './pages/HomePage';
 
-// import AllWork from './pages/AllWork';
+import AllWork from './pages/AllWork';
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
-          {/* <Route path="/allwork" element={<AllWork />} /> */}
+          <Route path="/allwork" element={<AllWork />} />
         </Routes>
       </main>
     </ReactLenis>
